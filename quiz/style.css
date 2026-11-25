@@ -98,3 +98,25 @@ button.small { padding: 4px 12px; font-size: .85rem; align-self: flex-start; }
 .dom { display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); padding: 6px 0; }
 #missList li { margin-bottom: 8px; }
 footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 16px; }
+
+.saved { margin: 2px 0 0; font-size: .8rem; color: var(--muted); }
+.saved.warn { color: var(--bad); }
+h2 { font-size: 1.05rem; margin: 28px 0 10px; }
+.muted { color: var(--muted); font-size: .9rem; }
+.row.left { justify-content: flex-start; }
+.filebtn { display: inline-flex; align-items: center; font: inherit; padding: 8px 16px; border-radius: 10px; cursor: pointer; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+.stat { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; }
+.stat b { display: block; font-size: 1.5rem; }
+.stat span { color: var(--muted); font-size: .85rem; }
+.scroll { overflow-x: auto; }
+.tbl { width: 100%; border-collapse: collapse; background: var(--card); font-size: .92rem; }
+.tbl th, .tbl td { border-bottom: 1px solid var(--line); padding: 8px 10px; text-align: left; white-space: nowrap; }
+.tbl td.num { text-align: right; }
+.bar { display: grid; grid-template-columns: minmax(0, 11em) minmax(0, 1fr) 4.5em; gap: 10px; align-items: center; margin: 6px 0; font-size: .9rem; }
+.bar .track { height: 10px; background: var(--line); border-radius: 999px; overflow: hidden; }
+.bar .fill { height: 100%; background: var(--accent); }
+.bar .fill.low { background: var(--bad); }
+.bar .fill.high { background: var(--good); }
+.bar .v { text-align: right; color: var(--muted); }
+.worst li { margin-bottom: 6px; }

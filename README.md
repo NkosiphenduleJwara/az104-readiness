@@ -20,6 +20,9 @@ This repo turns that into a measured plan:
 | [`READINESS.md`](READINESS.md) | Current status check: score, domain traffic lights, labs and course left, next sessions, checkpoints, trend |
 | [`quiz/`](quiz/) | Static flashcard + quiz site (HTML, CSS, JS). Open `quiz/index.html` in a browser; no build step |
 | [`quiz/cards.js`](quiz/cards.js) | The flashcard deck, one card per practice-test miss |
+| [`quiz/storage.js`](quiz/storage.js) | Saves quiz progress (SQLite, Claude artifact database, or browser + JSON export) |
+| [`scripts/serve.py`](scripts/serve.py) | Local server: runs the quiz and saves progress to SQLite + a JSON flat file |
+| `data/quiz-results.json` | Flat-file copy of all quiz attempts and card stats (written by `serve.py`, safe to commit) |
 | [`docs/study-plan.md`](docs/study-plan.md) | Every booked study session, 25 Nov 2026 – 18 Jan 2027 |
 | [`status/`](status/) | `READINESS.md` rendered as a small web page |
 | [`data/progress.json`](data/progress.json) | Course sections, tests, labs, checkpoints, history (source of truth) |
@@ -38,6 +41,16 @@ Readiness **63/100**, NO-GO today, conditional GO for 18 Jan. See [`READINESS.md
 | Compute | 20–25% | 50% | 🔴 |
 | Networking | 15–20% | 60% | 🟡 |
 | Monitor & maintain | 10–15% | 40% | 🔴 |
+
+## Saving quiz progress
+
+The quiz picks the first storage that works and shows it under the title ("Progress saved to: …"):
+
+1. **Local SQLite** – run `python3 scripts/serve.py --open` and use http://127.0.0.1:8104/quiz/. Every answer goes to `data/quiz.db`, and the full history is mirrored to `data/quiz-results.json` after each save. Commit that JSON file to keep progress across computers; on a new machine the server seeds the database from it. Python standard library only.
+2. **Claude artifact** – the published quiz on claude.ai saves to the artifact's own database, readable and writable only by the owner, so progress follows your Claude account across devices.
+3. **Browser only** – opening `quiz/index.html` directly (or from GitHub Pages) keeps progress in this browser. Use **Progress → Export JSON** to save a file and **Import JSON** to merge it back anywhere.
+
+Whatever the backend, the browser also keeps a copy, and anything saved only in the browser is merged up the next time a real backend is available. The **Progress** tab shows attempts, accuracy by domain and the cards you miss most.
 
 ## How scoring works
 
