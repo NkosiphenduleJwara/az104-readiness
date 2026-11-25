@@ -1,0 +1,399 @@
+{
+  "timezone": "Africa/Johannesburg",
+  "calendar": "primary",
+  "reminder_minutes": 30,
+  "slots": {
+    "weekday": "Mon–Thu 19:30–20:15",
+    "saturday": "09:00–11:30",
+    "sunday": "18:00–18:30"
+  },
+  "sessions": [
+    {
+      "date": "2026-11-25",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Finish Section 21 + last Section 11 item",
+      "calendar_event_id": "1283d2nn04s0d27p38g3fkq2t8",
+      "kind": "course",
+      "status": "planned"
+    },
+    {
+      "date": "2026-11-26",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Lab setup + read LAB_07",
+      "calendar_event_id": "bse7g9csdcmj5hqknidaaqb7kk",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-11-28",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "AZ-104 LAB: LAB_07 Manage Azure Storage",
+      "calendar_event_id": "rl5866vqh7dosour73d3q8le3o",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-11-29",
+      "start": "18:00",
+      "end": "18:30",
+      "title": "AZ-104: Flashcards – storage",
+      "calendar_event_id": "4okisns9l5krgd9dbqgrojgcis",
+      "kind": "cards",
+      "status": "planned"
+    },
+    {
+      "date": "2026-11-30",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Re-watch Sections 8–10 (stuck points only)",
+      "calendar_event_id": "mkful463d42e0lbp5l8mcl06hc",
+      "kind": "course",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-01",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Learn docs – redundancy, SAS, tiers",
+      "calendar_event_id": "1t1ta2jgb3u3ah2083ckn94ac4",
+      "kind": "docs",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-02",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: SAS + AzCopy from memory (CLI)",
+      "calendar_event_id": "72bn2n7kft62mkiebcsj6e229g",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-03",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: 20 storage questions → flashcards",
+      "calendar_event_id": "rm4ku003pao228ovgq4tib02tc",
+      "kind": "quiz",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-05",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "AZ-104 LAB: LAB_08 Virtual Machines + scale sets",
+      "calendar_event_id": "fsk219i332bjif46qio5bs6btc",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-06",
+      "start": "18:00",
+      "end": "18:30",
+      "title": "AZ-104: Flashcards – storage + compute",
+      "calendar_event_id": "vr5vlbe0el5nk61ne55hf25v9k",
+      "kind": "cards",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-07",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Re-watch Sections 11 + 14 (targeted)",
+      "calendar_event_id": "7sc021b9grlec6dcvf24t03h4s",
+      "kind": "course",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-08",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 LAB: LAB_09a Web Apps (part 1)",
+      "calendar_event_id": "r1bv9ogc7v9bla56lor8oc6uas",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-09",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 LAB: LAB_09a Web Apps (part 2)",
+      "calendar_event_id": "ese7ot8tr994a8lo0reqckoo78",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-10",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Section 15 targeted + 20 compute questions",
+      "calendar_event_id": "vsaegkpglupjm49j4c8k082f94",
+      "kind": "quiz",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-12",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "AZ-104 LAB: LAB_10 Data Protection (Backup + Site Recovery)",
+      "calendar_event_id": "mmpt37kl21mvn1hspfit1klpq4",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-13",
+      "start": "18:00",
+      "end": "18:30",
+      "title": "AZ-104: Flashcards – compute + backup",
+      "calendar_event_id": "3kl3nu28tfdk32n8qg8l16e7i4",
+      "kind": "cards",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-14",
+      "start": "19:30",
+      "end": "20:20",
+      "title": "AZ-104: Section 24 Backup and recovery",
+      "calendar_event_id": "ge6p2hhbp4dko0fr8190on5knk",
+      "kind": "course",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-15",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Section 22 + Network Watcher in portal",
+      "calendar_event_id": "361s8fmklfin5dajok8ij13s1g",
+      "kind": "course",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-16",
+      "start": "09:00",
+      "end": "11:00",
+      "title": "AZ-104 LAB: LAB_11 Monitoring (public holiday)",
+      "calendar_event_id": "5oc8il0n233joht9ke7usg0dis",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-17",
+      "start": "19:30",
+      "end": "20:20",
+      "title": "AZ-104: Section 23 Azure Monitor",
+      "calendar_event_id": "ocb5j5kckpn6d0c2ofn8g7l3h8",
+      "kind": "course",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-19",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "AZ-104 CHECKPOINT 1: Microsoft practice assessment + LAB_09b",
+      "calendar_event_id": "e7v1st9jqev2lbusivo0j3pji4",
+      "kind": "checkpoint",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-20",
+      "start": "18:00",
+      "end": "19:30",
+      "title": "AZ-104: Practice Test 1 early retake",
+      "calendar_event_id": "9argfk6pa63fgcdrns0sl4m4b4",
+      "kind": "test",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-21",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 LAB: LAB_09c Container Apps",
+      "calendar_event_id": "id999le4agfku3cmah7nut3sc8",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-22",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 LAB: Repeat LAB_06 without instructions (1/2)",
+      "calendar_event_id": "dqa57arri18887tv3bn4kjgqds",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-23",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 LAB: Repeat LAB_06 without instructions (2/2)",
+      "calendar_event_id": "ivv0acf0fclvu7te0a01h3pjf0",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-29",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Section 25 review (1/4)",
+      "calendar_event_id": "9900t953jd2r916soalk901c2s",
+      "kind": "course",
+      "status": "planned"
+    },
+    {
+      "date": "2026-12-30",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Section 25 review (2/4)",
+      "calendar_event_id": "mihjc9m92mrsn3t8ap72reo9l4",
+      "kind": "course",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-02",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "AZ-104: Fresh timed full practice test + review",
+      "calendar_event_id": "bf41e2c4i7nd5rgtqe1cvjl98o",
+      "kind": "test",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-03",
+      "start": "18:00",
+      "end": "18:30",
+      "title": "AZ-104: Flashcards from Saturday's misses",
+      "calendar_event_id": "phhea98ib0q6k3t2p4l0qlpb00",
+      "kind": "cards",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-04",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Section 25 review (3/4)",
+      "calendar_event_id": "0bavkncj9inuu4j19ja50norv8",
+      "kind": "course",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-05",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104: Section 25 (4/4) + Section 26 role plays",
+      "calendar_event_id": "ieb63bak4guo55rvo3kvdqdd3g",
+      "kind": "course",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-06",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 LAB: Repeat LAB_07 key tasks in PowerShell",
+      "calendar_event_id": "bfg95stpsat8dn7kfhbbe3ku3g",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-07",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 LAB: Repeat LAB_10 – restore + test failover",
+      "calendar_event_id": "ivfpdhlfmnmiqij89l2qsi5rfk",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-09",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "AZ-104 LAB: Repeat LAB_02a + LAB_02b in CLI",
+      "calendar_event_id": "jp74i5kii5uoja8mvuhivjn4vk",
+      "kind": "lab",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-10",
+      "start": "09:00",
+      "end": "12:00",
+      "title": "AZ-104 CHECKPOINT 2: Microsoft assessment + fresh full test (GO/NO-GO)",
+      "calendar_event_id": "a7gb5mdjs0h2bru5df69cgagfk",
+      "kind": "checkpoint",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-11",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 review: Identity & governance",
+      "calendar_event_id": "ejrbvai0u0pldoepgigjlluv6c",
+      "kind": "review",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-12",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 review: Storage + compute",
+      "calendar_event_id": "2grqu2s8n8l901umn156910n0k",
+      "kind": "review",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-13",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 review: Networking",
+      "calendar_event_id": "o64d2ag7ue9luhgto160g26qdc",
+      "kind": "review",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-14",
+      "start": "19:30",
+      "end": "20:15",
+      "title": "AZ-104 review: Monitor & backup + Learn lookup drill",
+      "calendar_event_id": "r32lc3nias0sflmctsk0haq2hk",
+      "kind": "review",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-15",
+      "start": "19:00",
+      "end": "20:45",
+      "title": "AZ-104: Last fresh timed test",
+      "calendar_event_id": "fdh5kbi6b5o0b8048c5aispoco",
+      "kind": "test",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-16",
+      "start": "09:00",
+      "end": "10:30",
+      "title": "AZ-104: Cards + summary tables + exam sandbox",
+      "calendar_event_id": "dlveqgd5pfcfhjbjhnspprf938",
+      "kind": "cards",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-17",
+      "start": "18:00",
+      "end": "18:30",
+      "title": "AZ-104: Exam logistics check",
+      "calendar_event_id": "ijuoi1is7op9h8i5km1kqd71a0",
+      "kind": "logistics",
+      "status": "planned"
+    },
+    {
+      "date": "2027-01-18",
+      "start": "all-day",
+      "end": "",
+      "title": "AZ-104 EXAM – Pearson VUE test centre",
+      "calendar_event_id": "teh27lm0t39cdrjiom75noc3qs",
+      "kind": "exam",
+      "status": "planned"
+    }
+  ]
+}

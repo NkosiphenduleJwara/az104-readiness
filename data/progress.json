@@ -1,0 +1,384 @@
+{
+  "exam": {
+    "code": "AZ-104",
+    "date": "2027-01-18",
+    "centre": "Pearson VUE test centre",
+    "pass_mark": 700
+  },
+  "score_weights": {
+    "practice": 0.4,
+    "labs": 0.25,
+    "blueprint": 0.2,
+    "course": 0.15
+  },
+  "domains": [
+    {
+      "name": "Identity & governance",
+      "weight_low": 20,
+      "weight_high": 25
+    },
+    {
+      "name": "Storage",
+      "weight_low": 15,
+      "weight_high": 20
+    },
+    {
+      "name": "Compute",
+      "weight_low": 20,
+      "weight_high": 25
+    },
+    {
+      "name": "Networking",
+      "weight_low": 15,
+      "weight_high": 20
+    },
+    {
+      "name": "Monitor & maintain",
+      "weight_low": 10,
+      "weight_high": 15
+    }
+  ],
+  "course": {
+    "name": "Scott Duffy – AZ-104 Microsoft Azure Administrator – Complete Exam Prep",
+    "total_items": 191,
+    "sections": [
+      [
+        1,
+        "Course intro",
+        10,
+        10
+      ],
+      [
+        2,
+        "Azure concepts",
+        4,
+        4
+      ],
+      [
+        3,
+        "PowerShell and CLI",
+        5,
+        5
+      ],
+      [
+        4,
+        "Intro to Entra ID",
+        9,
+        9
+      ],
+      [
+        5,
+        "Entra users and groups",
+        9,
+        9
+      ],
+      [
+        6,
+        "RBAC",
+        8,
+        8
+      ],
+      [
+        7,
+        "Subscriptions and governance",
+        13,
+        13
+      ],
+      [
+        8,
+        "Access to storage",
+        14,
+        14
+      ],
+      [
+        9,
+        "Data in storage accounts",
+        4,
+        4
+      ],
+      [
+        10,
+        "Azure Files",
+        2,
+        2
+      ],
+      [
+        11,
+        "Azure VMs",
+        15,
+        16
+      ],
+      [
+        12,
+        "ARM templates",
+        10,
+        10
+      ],
+      [
+        13,
+        "Bicep",
+        4,
+        4
+      ],
+      [
+        14,
+        "Manage Azure VM",
+        2,
+        2
+      ],
+      [
+        15,
+        "App Service",
+        12,
+        12
+      ],
+      [
+        16,
+        "ACI and Container Apps",
+        8,
+        8
+      ],
+      [
+        17,
+        "Manage virtual networking",
+        6,
+        6
+      ],
+      [
+        18,
+        "Implement virtual networking",
+        5,
+        5
+      ],
+      [
+        19,
+        "Name resolution",
+        5,
+        5
+      ],
+      [
+        20,
+        "Secure access to VNets",
+        5,
+        5
+      ],
+      [
+        21,
+        "Load balancing",
+        5,
+        7
+      ],
+      [
+        22,
+        "Monitor and troubleshoot networking",
+        0,
+        3
+      ],
+      [
+        23,
+        "Azure Monitor",
+        0,
+        5
+      ],
+      [
+        24,
+        "Backup and recovery",
+        0,
+        12
+      ],
+      [
+        25,
+        "Last-minute review",
+        0,
+        5
+      ],
+      [
+        26,
+        "Wrap up",
+        3,
+        8
+      ]
+    ],
+    "section_domain": {
+      "4": "Identity & governance",
+      "5": "Identity & governance",
+      "6": "Identity & governance",
+      "7": "Identity & governance",
+      "8": "Storage",
+      "9": "Storage",
+      "10": "Storage",
+      "11": "Compute",
+      "12": "Compute",
+      "13": "Compute",
+      "14": "Compute",
+      "15": "Compute",
+      "16": "Compute",
+      "17": "Networking",
+      "18": "Networking",
+      "19": "Networking",
+      "20": "Networking",
+      "21": "Networking",
+      "22": "Monitor & maintain",
+      "23": "Monitor & maintain",
+      "24": "Monitor & maintain"
+    }
+  },
+  "labs": [
+    [
+      "LAB_01",
+      "Manage Entra ID Identities",
+      "Identity & governance",
+      true
+    ],
+    [
+      "LAB_02a",
+      "Manage Subscriptions and RBAC",
+      "Identity & governance",
+      true
+    ],
+    [
+      "LAB_02b",
+      "Manage Governance via Azure Policy",
+      "Identity & governance",
+      true
+    ],
+    [
+      "LAB_03b",
+      "Manage Azure Resources by Using ARM Templates",
+      "Compute",
+      true
+    ],
+    [
+      "LAB_04",
+      "Implement Virtual Networking",
+      "Networking",
+      true
+    ],
+    [
+      "LAB_05",
+      "Implement Intersite Connectivity",
+      "Networking",
+      true
+    ],
+    [
+      "LAB_06",
+      "Implement Network Traffic Management",
+      "Networking",
+      true
+    ],
+    [
+      "LAB_07",
+      "Manage Azure Storage",
+      "Storage",
+      false
+    ],
+    [
+      "LAB_08",
+      "Manage Virtual Machines",
+      "Compute",
+      false
+    ],
+    [
+      "LAB_09a",
+      "Implement Web Apps",
+      "Compute",
+      false
+    ],
+    [
+      "LAB_09b",
+      "Implement Azure Container Instances",
+      "Compute",
+      false
+    ],
+    [
+      "LAB_09c",
+      "Implement Azure Container Apps",
+      "Compute",
+      false
+    ],
+    [
+      "LAB_10",
+      "Implement Data Protection",
+      "Monitor & maintain",
+      false
+    ],
+    [
+      "LAB_11",
+      "Implement Monitoring",
+      "Monitor & maintain",
+      false
+    ]
+  ],
+  "tests": [
+    {
+      "date": "2026-11-24",
+      "name": "Udemy Practice Test 1",
+      "kind": "fresh",
+      "correct": 31,
+      "total": 56,
+      "by_domain": {
+        "Identity & governance": [
+          8,
+          12
+        ],
+        "Storage": [
+          4,
+          9
+        ],
+        "Compute": [
+          5,
+          10
+        ],
+        "Networking": [
+          12,
+          20
+        ],
+        "Monitor & maintain": [
+          2,
+          5
+        ]
+      }
+    }
+  ],
+  "checkpoints": [
+    {
+      "date": "2026-12-19",
+      "name": "Checkpoint 1",
+      "rule": "Microsoft practice assessment ≥ 70%; Labs 07, 08, 09a, 10, 11 done"
+    },
+    {
+      "date": "2026-12-20",
+      "name": "Practice Test 1 retake",
+      "rule": "≥ 20 of the 25 old misses right (not a checkpoint score)"
+    },
+    {
+      "date": "2027-01-10",
+      "name": "Checkpoint 2 (GO/NO-GO)",
+      "rule": "Microsoft assessment + one fresh full test, both ≥ 80%, no domain < 65%"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-24",
+      "course_pct": 82,
+      "practice_pct": 55,
+      "labs": "7/14",
+      "readiness": 63,
+      "note": "Baseline"
+    },
+    {
+      "date": "2026-11-25",
+      "course_pct": 83,
+      "practice_pct": 55,
+      "labs": "7/14",
+      "readiness": 63,
+      "note": "Exact section counts; lab-first plan; calendar booked"
+    }
+  ],
+  "links": {
+    "plan_doc": "https://claude.ai/artifact/GjXyMkqwDmCKHD4ENkibSE",
+    "study_guide": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104",
+    "labs": "https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/tree/master/Instructions/Labs",
+    "quiz_artifact": "https://claude.ai/artifact/YRV2QJwQqFotAFwHNfunDM"
+  }
+}

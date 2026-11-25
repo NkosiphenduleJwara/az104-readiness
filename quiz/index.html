@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AZ-104 Flashcards &amp; Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>AZ-104 Flashcards &amp; Quiz</h1>
+      <p class="sub"><span id="count"></span> cards · updated <span id="updated"></span></p>
+    </div>
+    <nav class="modes" role="tablist">
+      <button class="mode active" data-mode="cards" role="tab" aria-selected="true">Flashcards</button>
+      <button class="mode" data-mode="quiz" role="tab" aria-selected="false">Quiz</button>
+    </nav>
+  </header>
+
+  <section class="filters">
+    <label for="domain">Domain</label>
+    <select id="domain"></select>
+    <label class="check"><input type="checkbox" id="hardOnly"> Hard only</label>
+    <label class="check"><input type="checkbox" id="hideKnown"> Hide known</label>
+    <button id="shuffle" class="ghost">Shuffle</button>
+  </section>
+
+  <main>
+    <!-- Flashcards mode -->
+    <section id="cardsView">
+      <div class="progress"><div id="cardBar"></div></div>
+      <p class="pos" id="cardPos"></p>
+      <button id="flashcard" class="flashcard" aria-live="polite">
+        <div class="face front">
+          <span class="tag" id="fTag"></span>
+          <p id="fQuestion"></p>
+          <span class="tap">Click or press Space to flip</span>
+        </div>
+        <div class="face back">
+          <span class="tag" id="bTag"></span>
+          <p class="answer" id="bAnswer"></p>
+          <p class="why" id="bWhy"></p>
+        </div>
+      </button>
+      <div class="row">
+        <button id="prev" class="ghost">&larr; Prev</button>
+        <button id="again" class="bad">Still learning</button>
+        <button id="known" class="good">Know it</button>
+        <button id="next" class="ghost">Next &rarr;</button>
+      </div>
+      <p class="keys">Keys: Space flip · ← → move · K know it · L still learning</p>
+    </section>
+
+    <!-- Quiz mode -->
+    <section id="quizView" hidden>
+      <div class="progress"><div id="quizBar"></div></div>
+      <p class="pos" id="quizPos"></p>
+      <article class="qcard">
+        <span class="tag" id="qTag"></span>
+        <p class="qtext" id="qText"></p>
+        <div id="options" class="options"></div>
+        <button id="hintBtn" class="ghost small" hidden>Show hint</button>
+        <p id="hint" class="hint" hidden></p>
+        <div id="feedback" class="feedback" hidden></div>
+      </article>
+      <div class="row">
+        <button id="qNext" class="primary" disabled>Next question</button>
+      </div>
+      <section id="result" class="result" hidden>
+        <h2 id="scoreLine"></h2>
+        <div id="byDomain"></div>
+        <h3>Review your misses</h3>
+        <ul id="missList"></ul>
+        <button id="restart" class="primary">Try again</button>
+      </section>
+    </section>
+  </main>
+
+  <footer>Built from Practice Test 1 misses. Answers paraphrased; check Microsoft Learn for the current rules.</footer>
+
+  <script src="cards.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
